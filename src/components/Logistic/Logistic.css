@@ -1,0 +1,56 @@
+#Logistic {
+    display:block;
+    position: relative;
+    padding-top:1rem;
+    width:100%;
+    height:80vh;
+    background-color:#F5F6F6;
+    
+}
+
+#contentWrap {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap:2rem;
+    padding:4rem;
+}
+
+h1 {
+    padding:3rem;
+    font-size: 2.375rem;
+}
+.wrapper { 
+    background-image:url("/src/assets/logisticnew.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain; 
+
+    width:100%;
+    height:80vh;
+}
+
+.contentBox {
+   
+    display:flex;
+    gap:1.5rem;
+    text-align:justify;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin:auto;
+    padding:1rem;
+    background-color: white;
+    width:20.625rem;
+    height:7.5rem;  
+}
+
+div.contentBox div {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+
+div.contentBox:hover {
+    border:1px solid #ED1C24;
+}

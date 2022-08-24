@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+  height: 5rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul > a {
+  padding: 0.6rem 0.8rem;
+  color: black;
+}
+
+#navbutton {
+  background-color: #ED1C24;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+img.logo {
+  width: 7.5rem;
+  height: auto;
+  transform: scale(2.5);
+  padding-left: 3rem;
+}
+
+#top{
+  position: fixed;
+  bottom:2rem;
+  right:2rem;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 50%;
+  padding:4px 8px;
+  color:white;
+  z-index: 1;
+}
+
+
+

@@ -1,0 +1,30 @@
+#footer {
+    padding:3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    background-color: #000000;
+    color:white;
+    justify-items:center;
+    text-align: left;
+    
+}
+
+.self {
+    align-self: center;
+    padding:0.5rem;
+}
+
+#social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#creator {
+   background-color: #1A1A1A;
+   display:block;
+   color:white;
+   text-align: left;
+   padding:0.5rem 0 0.5rem 8rem;
+
+}

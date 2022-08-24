@@ -1,0 +1,57 @@
+.cardSection {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 4rem;
+  text-align: left;
+  padding:2rem;
+  margin: 13rem 0 5rem 0;
+}
+
+div.imgPart {
+  position: relative;
+  letter-spacing: 2px;
+  width: 37.5rem;
+  height: 34.25rem;
+ 
+}
+
+.imgPart > div {
+    overflow: hidden;
+}
+.cardContent {
+  max-width: 34.25rem;
+}
+
+#cardImg {
+  width:37.5rem;
+  height: 34.25rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+#cardImg:hover {
+    transform: scale(1.1);
+    transition: 0.2s all;
+    
+}
+
+#imgBanner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: left;
+  gap:1rem;
+  position: absolute;
+  bottom:8rem;
+  right:-2rem;
+  background-color: #ed1c24;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1.2rem 1.5rem;
+}
+
+#imgbanner > div {
+  display: flex; 
+}

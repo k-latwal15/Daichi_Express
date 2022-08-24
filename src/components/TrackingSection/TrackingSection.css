@@ -1,0 +1,222 @@
+#craftImg {
+  background-image: url("../../assets/craft@2x.png");
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  margin-bottom: 20rem;
+}
+
+@media screen and (min-width: 1600px) {
+  #craftImg {
+    background-image: url("../../assets/craft@2x.png");
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    margin-bottom: 20rem;
+  }
+}
+
+#craftImg div {
+  position: absolute;
+  top: 8rem;
+  left: 11rem;
+  width: 28.75rem;
+  text-align: left;
+  color: white;
+}
+
+#whyUs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+  gap: 3rem;
+  width: 29.375rem;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.featurePng {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img#loader {
+  width: 39.875rem;
+  height: 36.25rem;
+}
+
+div.container {
+  position: relative;
+}
+
+#trackbox {
+  position: absolute;
+  top: 23rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 67.5rem;
+  height: 28rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.topheading {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 5rem;
+}
+
+.one {
+  width: 100%;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.two {
+  width: 100%;
+  height: rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+#form-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 1rem;
+  grid-gap: 1.5rem;
+  background-color: white;
+  width: 100%;
+  /* height: 44vh; */
+  background-color: white;
+  text-align: left;
+  align-items: flex-end;
+}
+
+.response-display {
+  /* display:table; */
+  background-color: white;
+  /* height: 50vh; */
+  width: 100%;
+  align-content: center;
+  padding-top: 4rem;
+  padding: 1.8rem;
+}
+
+table {
+  margin: auto;
+}
+
+tr {
+  height:3rem;
+}
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  border-bottom: 1px solid #dddddd;
+  padding: 5px;
+  width: 14rem;
+  
+  text-align: left;
+}
+
+.form-area {
+  padding: 0.8rem;
+}
+
+.form-area > div {
+  width: 100%;
+  height: auto;
+}
+
+label {
+  display: inline-block;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+input,
+select {
+  display: inline-block;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ecebeb;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.sideImage {
+  background-image: url("/src/assets/cardSection.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 20.5rem;
+  color: white;
+}
+
+.sideImage > div {
+  background-color: rgba(255, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 1.5rem;
+}
+
+button[type="submit"] {
+  background-color: #484848;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.9rem;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border-radius: 5px;
+  border-style: none;
+}
+
+button:active {
+  background-color: red;
+}
+
+.error {
+  color: red;
+}
+
+#back {
+  color:red;
+  position:absolute;
+  left:6rem;
+}
